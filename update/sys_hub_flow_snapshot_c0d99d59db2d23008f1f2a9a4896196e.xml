@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_hub_flow_snapshot">
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <description>Find and close overdue NeedIt Tries and update the work notes.</description>
+        <label_cache>[{"name":"15653ca1-9f6e-425e-8abc-a013f5f327a3.record.number","label":"4.1➛NeedIt Try Record➛Number","reference":"","reference_display":"Number","type":"string","base_type":"string","parent_table_name":"x_58872_needit_needit_try","column_name":"number"},{"name":"ff02fd47-59eb-4fbc-818c-27dcc931fe5a.item","label":"4➛NeedIt Try Record","reference":"x_58872_needit_needit_try","reference_display":"NeedIt Try","type":"reference","base_type":"reference"},{"name":"cbab8676-72be-473a-b8d1-706935ac68dd.Records","label":"3➛NeedIt Try Records","reference":"x_58872_needit_needit_try","reference_display":"NeedIt Try","type":"records","base_type":"records"},{"name":"3a78d211-3085-4f99-a51b-67315d0acefe.calculated_date","label":"2➛calculated_date","type":"glide_date","base_type":"glide_date"},{"name":"7c0b067a-d969-4e36-9918-f37d944ea5b6.property_value","label":"1➛property_value","reference_display":"property_value"}]</label_cache>
+        <name>Find and Close Long Overdue NeedIt Tries</name>
+        <parent_flow display_value="Find and Close Long Overdue NeedIt Tries">99855199db2d23008f1f2a9a48961969</parent_flow>
+        <remote_trigger_id/>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-11-02 11:55:08</sys_created_on>
+        <sys_id>c0d99d59db2d23008f1f2a9a4896196e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Find and Close Long Overdue NeedIt Tries</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_hub_flow_snapshot_c0d99d59db2d23008f1f2a9a4896196e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-11-02 11:55:08</sys_updated_on>
+    </sys_hub_flow_snapshot>
+</record_update>

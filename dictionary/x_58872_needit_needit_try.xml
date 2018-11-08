@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" extends="task" label="NeedIt Try" max_length="40" name="x_58872_needit_needit_try" sizeclass="27" type="collection"/>
+</database>
